@@ -1,0 +1,15 @@
+[package]
+name = "pcf"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule='0xaf2c3fe936a555bb9871293c89a0dd168caa60746828079ab6d474a308be310d'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
